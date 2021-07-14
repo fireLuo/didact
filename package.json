@@ -1,12 +1,19 @@
 {
-  "name": "didact",
-  "version": "3.0.0",
-  "description": "A didactic alternative to React",
-  "license": "MIT",
-  "repository": "pomber/didact",
-  "author": "pomber",
-  "main": "didact.js",
-  "keywords": [
-    "react"
-  ]
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./main.js",
+  "scripts": {
+    "build": "webpack --watch --color --progress"
+  },
+  "author": "pwcong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-react-jsx": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
